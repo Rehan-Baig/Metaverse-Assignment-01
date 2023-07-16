@@ -1,0 +1,13 @@
+"use strict";
+var a = 12;
+var b = 4;
+console.log("Result of Subtraction...  : ", a - b);
+var c = 2;
+var d = 6;
+console.log("Result of Addition......  : ", c + d);
+var w = 2;
+var x = 4;
+console.log("Result of Multiplication  : ", w * x);
+var y = 24;
+var z = 3;
+console.log("Result of Division......  : ", y / z);

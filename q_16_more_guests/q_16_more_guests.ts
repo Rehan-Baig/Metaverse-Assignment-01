@@ -1,0 +1,19 @@
+const old_guests: string[] = ["Ayesha", "Abdullah", "Safiullah", "Asadullah"];
+
+console.log('I found a bigger dinner table!');
+
+old_guests.unshift('Usman'); // Add one new guest to the beginning of the array
+
+old_guests.splice(2, 0, 'Faizan'); // Add one new guest to the middle of the array
+
+old_guests.push('Waleed'); // Add one new guest to the end of the array
+
+for (const guest of old_guests) {
+  console.log(`Dear ${guest},
+
+  I would be honored if you would join me for dinner. I would love to hear your stories and learn from your experiences.
+
+  Sincerely,
+  Rehan
+`);
+}
